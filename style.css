@@ -27,6 +27,12 @@ body {
     margin-right: 2vh;
     margin-top: 5vh;
     margin-bottom: 2.5vh;
+    margin-left: 10rem;
+    margin-right : -30rem;
+}
+.dark {
+    margin-right : 1.5rem;
+    margin-top: 2.25vh;
 }
 .menu-links {
     display : flex;
