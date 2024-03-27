@@ -409,6 +409,8 @@ visibility: visible;
         width: 25px;
         height: 30px;
         visibility : visible;
+        margin-left:6rem;
+        margin-right : 0;
     }
     .menu {
         position : relative;
@@ -425,12 +427,17 @@ visibility: visible;
         width: 25rem;
         z-index: 1;
         top: 100%;
-        left: -18rem;
+        left: -13rem;
       }
-      .batam:hover + .menu-links {
+      .menu:hover .menu-links {
         display: flex;
         flex-direction: column;
         z-index: 3;
+      }
+      .dark {
+        margin-top:18px;
+        margin-right: 2rem;
+        margin-left: -2rem;
       }
 }
 
