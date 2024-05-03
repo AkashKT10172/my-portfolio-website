@@ -443,7 +443,7 @@ h1{
     width : 50%;
 }
 .skills-intro h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
     padding: 10px;
     color : black;
@@ -469,6 +469,7 @@ h1{
         flex-direction: column;
         height: auto;
         text-align: center;
+        width : 100%;
     }
     .skills-intro {
         width : 100%;
@@ -477,6 +478,7 @@ h1{
     }
     .skills-intro h1 {
         text-align: center;
+        width : 100%;
     }
     .li-skills {
         width : 100%;
@@ -490,6 +492,9 @@ h1{
     .li-skills div {
         height : 100px;
         width : 120px;
+    }
+    .skills-intro h1 {
+        font-size: 35px;
     }
 }
 .li-skills i {
