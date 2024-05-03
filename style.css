@@ -429,10 +429,11 @@ h1{
 
 .skills {
     display: flex;
-    min-height : calc(100vh - 60px);
+    height : auto;
     align-items: center;
     justify-content: center;
     background-color: rgb(216, 216, 220);
+    padding : 50px;
 }
 .skills-bg{
     background-color: rgb(216, 216, 220);
@@ -546,10 +547,13 @@ h1{
     text-align: left;
     color : white;
     font-weight: 400;
+    max-width : 475px;
+    height : 150px;
 }
 .intro .intro-details h3 span{
     font-weight: 600;
     color : green;
+    max-width : 500px;
 }
 .intro .intro-details p span{
     font-weight: 600;
@@ -591,6 +595,9 @@ h1{
     font-size: 60px;
 }
 @media screen and (max-width:700px) {
+    .btns {
+        flex-direction: column;
+    }
     .intro .intro-details h4 {
         padding : 10px;
     }
@@ -601,10 +608,7 @@ h1{
         padding : 10px;
     }
     .intro .intro-details .btns {
-        padding : 10px;
-    }
-    .btns .btn-g {
-        margin-right: 20px;
+        padding : 50px 10px 10px 10px;
     }
 }
 .btns .btn-g, .btns .btn-git {

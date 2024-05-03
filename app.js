@@ -44,7 +44,7 @@ ScrollReveal().reveal('.sites', { delay: 200, origin: 'left' });
 ScrollReveal().reveal('.card-container', { delay: 200, origin: 'left' });
 
 var typed = new Typed(".auto-type", {
-    strings : ["Web Developer", "Sport Programmer", "Electrical Engineer"],
+    strings : ["Web Developer", "Competitive Programmer", "Electrical and Electronics Engineer"],
     typeSpeed : 150,
     backSpeed : 150,
     loop : true
