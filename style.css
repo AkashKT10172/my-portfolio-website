@@ -473,6 +473,7 @@ h1{
     .skills-intro {
         width : 100%;
         height : 40%;
+        text-align: center;
     }
     .skills-intro h1 {
         text-align: center;
@@ -483,6 +484,12 @@ h1{
     .li-skills div {
         height : 150px;
         width : 150px;
+    }
+}
+@media screen and (max-width : 500px) {
+    .li-skills div {
+        height : 100px;
+        width : 120px;
     }
 }
 .li-skills i {
