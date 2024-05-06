@@ -51,7 +51,7 @@ color : white;
     font-size : 16px;
     transition : .2s ease-in-out;
 }
-.navigation-items nav-i-a:hover {
+.navigation-items .nav-i-a:hover {
 color :white;
 }
 .hamburger {
@@ -64,7 +64,6 @@ color :white;
     margin : 5px auto;
     transition: all 0.3s ease-in-out;
     background-color: black; 
-    
 }
 @media screen and (max-width:850px) {
     .hamburger {
@@ -78,12 +77,6 @@ color :white;
     }
     .hamburger.active .ham-bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg) ;
-    }
-    header {
-        opacity : 1;
-    }
-    nav {
-        opacity : 1;
     }
     .navigation-items{
         position: fixed;
