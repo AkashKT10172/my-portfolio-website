@@ -38,7 +38,7 @@ nav{
     transition : .2s ease-in-out;
 }
 .logo-container .logo-cont-a:hover {
-color : white;
+color : white !important;
 }
 .navigation-items {
     display : flex;
@@ -52,7 +52,7 @@ color : white;
     transition : .2s ease-in-out;
 }
 .navigation-items .nav-i-a:hover {
-color :white;
+color :white !important;
 }
 .hamburger {
     display : none;
@@ -152,19 +152,21 @@ color :white;
 }
 .f-socials {
     display:flex;
+    flex-wrap: wrap;
     margin-bottom: 25px;
-    gap : 200px;
+    gap : 100px;
     padding: 5px;
 }
 @media screen and (max-width : 850px) {
     .f-socials {
-        gap: 125px;
+        gap: 50px;
     }
 }
 @media screen and (max-width : 500px) {
     .f-socials {
-        gap: 90px;
+        gap: 50px;
     }
+
 }
 .f-socials li{
     list-style-type: none;

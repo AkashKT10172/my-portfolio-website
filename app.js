@@ -27,9 +27,8 @@ const navItems = document.querySelectorAll(".nav-i-a");
 const hamBar = document.querySelectorAll(".ham-bar");
 const navItemsBig = document.querySelector(".navigation-items");
 const footer = document.querySelector(".footer");
-const fb = document.querySelector(".fb");
-const ins = document.querySelector(".ins");
-const tw = document.querySelector(".tw");
+const tw = document.querySelectorAll(".tw");
+const clubName = document.querySelectorAll(".club-name");
 const code = document.querySelector(".code");
 const codeBg = document.querySelector(".code-bg");
 const h1Code = document.querySelectorAll("#h1-code");
@@ -55,9 +54,8 @@ container.addEventListener("click", () => {
         navItemsBig.style.backgroundColor = "rgb(33, 4, 84)";
         footer.style.backgroundColor = "rgb(33, 4, 84)";
         footer.style.color = "white";
-        fb.style.color = "white";
-        ins.style.color = "white";
-        tw.style.color = "white";
+        tw.forEach((social) => {social.style.color = "white";});
+        clubName.forEach((social) => {social.style.color = "white";});
         logoCont.style.color = "white";
         navItems.forEach((navitem) => {navitem.style.color = "white";});
         hamBar.forEach((hamBar) => {hamBar.style.backgroundColor = "white";});
@@ -84,9 +82,8 @@ container.addEventListener("click", () => {
         navItemsBig.style.backgroundColor = "chocolate";
         footer.style.backgroundColor = "chocolate";
         footer.style.color = "black";
-        fb.style.color = "black";
-        ins.style.color = "black";
-        tw.style.color = "black";
+        tw.forEach((social) => {social.style.color = "black";});
+        clubName.forEach((social) => {social.style.color = "black";});
         logoCont.style.color = "black";
         navItems.forEach((navitem) => {navitem.style.color = "black";});
         hamBar.forEach((hamBar) => {hamBar.style.backgroundColor = "black";});
@@ -113,7 +110,7 @@ ScrollReveal({
     reset : true,
     distance : '60px',
     duration : 2500,
-    delay : 300
+    delay : 200
 });
 ScrollReveal().reveal('.my-image', { delay: 200, origin: 'left' });
 // ScrollReveal().reveal('.intro-details', { delay: 200, origin: 'left' });
