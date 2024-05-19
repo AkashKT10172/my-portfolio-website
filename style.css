@@ -430,6 +430,7 @@ h1{
     justify-content: center;
     background-color: rgb(216, 216, 220);
     padding : 50px;
+    padding-bottom: 0px;
 }
 .skills-bg{
     background-color: rgb(216, 216, 220);
