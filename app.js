@@ -109,23 +109,21 @@ container.addEventListener("click", () => {
 ScrollReveal({
     reset : false,
     distance : '60px',
-    duration : 2500,
-    delay : 200
+    duration : 1500,
+    delay : 100
 });
 ScrollReveal().reveal('.my-image', { delay: 200, origin: 'left' });
-// ScrollReveal().reveal('.intro-details', { delay: 200, origin: 'left' });
-ScrollReveal().reveal('.title', { delay: 200, origin: 'left' });
-ScrollReveal().reveal('.contents', { delay: 200, origin: 'left' });
+ScrollReveal().reveal('.title', { delay: 200, origin: 'left'});
+ScrollReveal().reveal('.box', {scale : 0.5});
 ScrollReveal().reveal('.h1-code', { delay: 200, origin: 'left' });
-ScrollReveal().reveal('.clubs', { delay: 200, origin: 'left' });
-// ScrollReveal().reveal('.skills-intro', { delay: 200, origin: 'left' });
+ScrollReveal().reveal('.club', {scale : 0.5});
 ScrollReveal().reveal('.li-skills', { delay: 200, origin: 'left' });
-ScrollReveal().reveal('.sites', { delay: 200, origin: 'left' });
-ScrollReveal().reveal('.card-container', { delay: 200, origin: 'left' });
+ScrollReveal().reveal('.site', { scale : 0.5 });
+ScrollReveal().reveal('.card', {scale : 0.5});
 
 var typed = new Typed(".auto-type", {
     strings : ["Web Developer", "Competitive Programmer", "Electrical and Electronics Engineer"],
-    typeSpeed : 150,
-    backSpeed : 150,
+    typeSpeed : 75,
+    backSpeed : 75,
     loop : true
 })
