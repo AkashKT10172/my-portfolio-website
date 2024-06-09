@@ -1,22 +1,17 @@
 const hamB = document.querySelector(".hamburger");
 const navI = document.querySelector(".navigation-items");
-
 hamB.addEventListener(("click"), () => {
     hamB.classList.toggle("active");
     navI.classList.toggle("active");
 })
-
 const items = document.querySelectorAll(".navigation-items a");
-
 const clicked = (item) => {
     item.addEventListener(("click"), () => {
         navI.classList.remove("active"); 
         hamB.classList.remove("active");  
     })
 } 
-
 items.forEach(clicked);
-
 const sun = document.querySelector(".sun-logo");
 const moon = document.querySelector(".moon-logo");
 const container = document.querySelector(".container");
@@ -42,8 +37,6 @@ const skillsCont = document.querySelector(".skills");
 const skillsContBg = document.querySelector(".skills-bg");
 const introCont = document.querySelector(".intro");
 const para = document.querySelector("#para");
-
-
 let a = 1;
 container.addEventListener("click", () => {
     sun.classList.toggle("sun-anim");
@@ -73,7 +66,6 @@ container.addEventListener("click", () => {
         introCont.style.backgroundColor = "rgb(33, 4, 84)";
         h1Code[2].style.color = "black";
         para.style.color = "white";
-
         a=0;    
     }
     else {
@@ -100,8 +92,6 @@ container.addEventListener("click", () => {
         skillsContBg.style.backgroundColor = "rgb(216, 216, 220)";
         introCont.style.backgroundColor = "chocolate";
         para.style.color = "black";
-
-
         a=1; 
     }
 })
