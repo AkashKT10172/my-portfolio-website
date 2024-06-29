@@ -178,6 +178,7 @@ color :white !important;
 }
 .f-socials li .fb:hover, .f-socials li .ins:hover, .f-socials li .tw:hover {
     transform: scale(1.25);
+    color: white;
 }
 h1{
     text-align: center;
@@ -258,7 +259,7 @@ h1{
     flex-wrap : wrap;
 }
 .card {
-    width : 325px;
+    width : 500px;
     background-color: #f0f0f0;
     border-radius: 8px;
     overflow:hidden;
@@ -269,7 +270,7 @@ h1{
 }
 .card img {
     width : 100%;
-    height : 400px;
+    height : 281px;
 }
 .container-card{
     padding : 16px;   
@@ -498,10 +499,10 @@ h1{
     height: 100%;
     width : 100%;
     font-size: 75px;
-    transition : 0.2s;
+    transition : 0.5s;
 }
 .li-skills i:hover{
-    font-size : 80px;
+    color : white;
 }
 
 /* the code for intro section */
