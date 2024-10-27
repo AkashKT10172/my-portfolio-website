@@ -302,6 +302,9 @@ h1{
 .asso {
     min-height: calc(100vh - 60px);
     background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .h1-asso, .h1-stats, .h1-projss, .h1-edu {
     padding-top: 50px;
@@ -311,9 +314,10 @@ h1{
 }
 .clubs {
     display : flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 1000px;
 }
 .club{
     width : 250px;
@@ -321,7 +325,6 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 .club img {
     width: 100%;
